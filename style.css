@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#gameBoard {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(161, 255, 169);
+    border: 1px solid black;
+    margin-left: 30%;
+ }
+ 
+ #racket {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 350px;
+    left: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 110, 255);
+    border-radius: 15px;
+ }
+ 
+ #ball {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 300px;
+    left: 300px;
+    border-radius: 50%;
+    border: 20px solid rgb(255, 139, 139);
+ }
+ 
+ .brick {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(209, 92, 255);
+    border: 1px solid rgb(246, 255, 126);
+ }
+
+ .text {
+    margin-left: 44%;
+    font-family: Roboto;
+ }
